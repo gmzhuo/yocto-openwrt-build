@@ -1,0 +1,8 @@
+<manifest>
+  <remote name="base" fetch="https://github.com/"/>
+  <remote name="yocto" fetch=" git://git.yoctoproject.org/"/>
+  <default revision="master" remote="base" sync-j="4"/>
+  <default revision="master" remote="yocto" sync-j="4"/>
+  <project name="yocto" remote="yocto" path="layers/poky"/>
+  <project name="openwrt" remote="base" path="layers/meta-openwrt"/>
+</manifest>
