@@ -1,0 +1,5 @@
+Build steps:
+repo init -u https://github.com/gmzhuo/yocto-openwrt-build.git -m default.xml
+repo sync
+source layers/poky/oe-init-build-env build
+bitbake openwrt-initramfs
