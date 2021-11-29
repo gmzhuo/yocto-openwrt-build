@@ -7,5 +7,5 @@
   <project name="openembedded/meta-openembedded" remote="base" path="layers/meta-openembedded" revision="master"/>
   <project name="gmzhuo/meta-openwrt-bsp" remote="base" path="layers/meta-openwrt-bsp" revision="main"/>
   <project name="gmzhuo/meta-openwrt-extend" remote="base" path="layers/meta-openwrt-extend" revision="main"/>
-  <project name="poky" remote="yocto" path="layres/poky" revision="master"/>
+  <project name="poky" remote="yocto" path="layers/poky" revision="master"/>
 </manifest>
