@@ -2,6 +2,5 @@
   <remote name="base" fetch="https://github.com/"/>
   <remote name="yocto" fetch=" git://git.yoctoproject.org/"/>
   <default revision="master" remote="base" sync-j="4"/>
-  <project name="poky" remote="yocto" path="layers/poky" revision="master"/>
-  <project name="kraj/meta-openwrt" remote="base" path="layers/meta-openwrt"/>
+  <project name="kraj/meta-openwrt" remote="base" path="layers/meta-openwrt" revision="master"/>
 </manifest>
