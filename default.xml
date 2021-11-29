@@ -2,6 +2,7 @@
   <remote name="base" fetch="https://github.com/"/>
   <remote name="yocto" fetch="git://git.yoctoproject.org/"/>
   <default revision="master" remote="base" sync-j="4"/>
+  <project name="gmzhuo/yocto-openwrt-build-conf" remote="base" path="build/conf" revision="master"/>
   <project name="kraj/meta-openwrt" remote="base" path="layers/meta-openwrt" revision="master"/>
   <project name="openembedded/openembedded-core" remote="base" path="layers/openembedded-core" revision="master"/>
   <project name="openembedded/meta-openembedded" remote="base" path="layers/meta-openembedded" revision="master"/>
